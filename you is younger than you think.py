@@ -1,0 +1,10 @@
+# ask for name and age, and tell the person why they look younger.
+print('Hello world')
+print('what is your name?')
+my_name = input('>')
+print('It is good to meet you ' + my_name)
+print('The length of you name is:')
+print(len(my_name))
+print('what is your age?')
+my_age = input('>')
+print('you look like you are ' + str(int(my_age) - 1) + ' because of looks inflation lol xd, people back in my day looked older, maybe because of aging habits. ' )
