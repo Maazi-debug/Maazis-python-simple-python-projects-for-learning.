@@ -28,7 +28,10 @@
 # My third (with the help of gemini!)
 
 def printer(LIST):
-    LIST.insert(-1, 'and')
+    if len(LIST) >= 1:
+        LIST.insert(-1, 'and')
+    else:
+        LIST = []
 
     for index, item in enumerate(LIST):
         if index == len(LIST) - 1:
